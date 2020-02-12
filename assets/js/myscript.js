@@ -119,7 +119,7 @@ function highscoreFunction(){
 			if(highscore.length <= 5){
 				for (i = 0; i < 6; i++){
 				if (highscroe[i][1]<wincount)
-					highscore[i+1]=highscore[i]
+					highscore[i+1]=highscore[i];
 				sessionStorage.highscore = highscore ;
 				}
 			} 
